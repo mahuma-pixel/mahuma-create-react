@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <footer>
+      This project was coded by <a href='mailto:mahoomah.curl@gmail.com'> Ribane M</a> and is open-sourced on <a href='https://github.com/mahuma-pixel'> GitHub</a> and hosted on <a href='https://mahuma-react-app-homework.netlify.app/'> Netlify </a>
+      </footer>
     </div>
   );
 }
