@@ -1,6 +1,17 @@
-.form {border: 1px solid gray;}
+.weather{border: 1px solid #A5A1B2;
+margin: 20px 50px}
 
 
 .values{ color:#F75282;}
-.temperature{font-weight: 700px;}
+.temperature{
+    color: #212121;
+    font-size: 80px;
+    font-weight: 400;
+    font-weight: 700;
+    line-height: 1;
+    margin-left: 10px;}
 .temps{color:#F75282;}
+.min{opacity:0.6}
+.day, li{color:#A5A1B2}
+h1{color:#272142}
+ul{list-style: none;}
